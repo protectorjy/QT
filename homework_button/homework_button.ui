@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>homework_buttonClass</class>
+ <widget class="QWidget" name="homework_buttonClass" >
+  <property name="objectName" >
+   <string notr="true">homework_buttonClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>homework_button</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="homework_button.qrc"/>
+ </resources>
+ <connections/>
+</UI>
