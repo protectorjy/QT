@@ -7,6 +7,7 @@
 #include<qlabel>
 #include<qdockwidget>
 #include<qtextedit>
+#include<qdialog>
 
 QMainWindow_1::QMainWindow_1(QWidget *parent)
     : QMainWindow(parent)
@@ -20,11 +21,11 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
     QMenu* view = (*mar).addMenu("View");
     QMenu* Git = (*mar).addMenu("Git");
     QMenu* test = (*mar).addMenu("Test");
-    (*file).addAction("New");
-    (*file).addAction("Open");
+    QAction* a1 = (*file).addAction("New");
+    QAction* a2 = (*file).addAction("Open");
     (*file).addAction("Clone");
     (*file).addSeparator();
-    (*file).addAction("Quit");
+    QAction* a4 = (*file).addAction("Quit");
     (*edit).addAction("Return");
     (*edit).addSeparator();
     (*edit).addAction("Copy");
@@ -50,4 +51,15 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
     addDockWidget(Qt::BottomDockWidgetArea, dock);
     QTextEdit* text = new QTextEdit(this);
     setCentralWidget(text);
+    (*a1).setIcon(QIcon(":/resources/20211117161738.ico"));
+    connect(a1, &QAction::triggered, [=]() {
+        QDialog *dlg = new QDialog(this);
+        (*dlg).resize(500, 300);
+        QPushButton* b1 = new QPushButton("play", dlg);
+        
+        (*dlg).show();
+        (*dlg).setAttribute(Qt::WA_DeleteOnClose);
+
+        });
+    connect(a4, &QAction::triggered, this, &QWidget::close);
 }
