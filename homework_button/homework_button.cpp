@@ -16,7 +16,7 @@ homework_button::homework_button(QWidget *parent)
     (*b1).resize(100, 50);
     (*b2).resize(100, 50);
     (*b2).move(400, 600);
-    //connect(b1, &QPushButton::clicked, this, &QWidget::close);
+    connect(b1, &QPushButton::clicked, this, &QWidget::close);
     connect(b1, &QPushButton::clicked, this, &homework_button::start);
     connect(b2, &QPushButton::clicked, this, &QWidget::close);
     connect(B1, sign_1, B2, slots_1);
