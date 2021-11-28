@@ -10,7 +10,7 @@ class homework_button : public QWidget
 
 public:
     homework_button(QWidget *parent = Q_NULLPTR);
-
+    void start();
 private:
     Ui::homework_buttonClass ui;
     Button1* B1;

@@ -1,12 +1,15 @@
 #pragma once
-#include <QObject>
-#include <QtWidgets/QApplication>
-class Button2 : public QObject
+
+#include <QWidget.h>
+#include<qeventloop.h>
+class Button2 : public QWidget
 {
 	Q_OBJECT
 
 public:
-	Button2(QObject *parent);
+	Button2(QWidget* parent = Q_NULLPTR);
 	~Button2();
-	int windows(int argc, char* argv[]);
+	void windows();
+	QEventLoop* m_Loop;
+	Button2* w2;
 };

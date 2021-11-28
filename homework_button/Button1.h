@@ -10,5 +10,5 @@ public:
 	Button1(QObject *parent);
 	~Button1();
 signals:
-	void open(int,char**);
+	void open();
 };
