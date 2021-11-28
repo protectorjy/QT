@@ -8,6 +8,7 @@
 #include<qdockwidget>
 #include<qtextedit>
 #include<qdialog>
+#include<qfiledialog>
 
 QMainWindow_1::QMainWindow_1(QWidget *parent)
     : QMainWindow(parent)
@@ -53,12 +54,17 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
     setCentralWidget(text);
     (*a1).setIcon(QIcon(":/resources/20211117161738.ico"));
     connect(a1, &QAction::triggered, [=]() {
-        QDialog *dlg = new QDialog(this);
-        (*dlg).resize(500, 300);
-        QPushButton* b1 = new QPushButton("play", dlg);
+        QDialog* dlg_1 = new QDialog(this);
+        (*dlg_1).resize(600, 400);
+        (*dlg_1).show();
+        (*dlg_1).setAttribute(Qt::WA_DeleteOnClose);
+        });
+    connect(a2, &QAction::triggered, [=]() {
+         QFileDialog dlg_2(this);
+        (dlg_2).resize(500, 300);
+        //QPushButton* b1 = new QPushButton("play", dlg);
         
-        (*dlg).show();
-        (*dlg).setAttribute(Qt::WA_DeleteOnClose);
+        (dlg_2).exec();
 
         });
     connect(a4, &QAction::triggered, this, &QWidget::close);
