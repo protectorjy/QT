@@ -9,6 +9,7 @@
 #include<qtextedit>
 #include<qdialog>
 #include<qfiledialog>
+#include<qmessagebox>
 
 QMainWindow_1::QMainWindow_1(QWidget *parent)
     : QMainWindow(parent)
@@ -24,7 +25,7 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
     QMenu* test = (*mar).addMenu("Test");
     QAction* a1 = (*file).addAction("New");
     QAction* a2 = (*file).addAction("Open");
-    (*file).addAction("Clone");
+    QAction* a3 = (*file).addAction("Clone");
     (*file).addSeparator();
     QAction* a4 = (*file).addAction("Quit");
     (*edit).addAction("Return");
@@ -67,5 +68,11 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
         (dlg_2).exec();
 
         });
-    connect(a4, &QAction::triggered, this, &QWidget::close);
+    connect(a3, &QAction::triggered, [=]() {
+        QMessageBox::critical(this,"crit","error");
+        });
+    connect(a4, &QAction::triggered, [=]() {
+        QMessageBox::question(this, "imfo", "Are you sure quit?");
+        resize(100, 80);
+        });
 }
