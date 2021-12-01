@@ -72,7 +72,8 @@ QMainWindow_1::QMainWindow_1(QWidget *parent)
         QMessageBox::critical(this,"crit","error");
         });
     connect(a4, &QAction::triggered, [=]() {
-        QMessageBox::question(this, "imfo", "Are you sure quit?");
+        if (QMessageBox::Yes == QMessageBox::question(this, "imfo", "Are you sure quit?"))
+            QWidget::close();
         resize(100, 80);
         });
 }
