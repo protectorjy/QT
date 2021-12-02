@@ -18,6 +18,6 @@ Layout_check::Layout_check(QWidget *parent)
         });
     connect(ui.actionQuit, &QAction::triggered, [=]() {
         if (QMessageBox::Yes == QMessageBox::question(this, "Quit", "Are you sure quit?"))
-            QWidget::close();
+            QWidget::close()£»
         });
 }
