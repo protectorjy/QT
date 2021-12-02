@@ -50,9 +50,7 @@ Qt_mainWindows_check::Qt_mainWindows_check(QWidget *parent)
         wnew.exec();
         });
     connect(f1, &QAction::triggered, [=]() {
-        QFileDialog* fw = new QFileDialog(this);
-        (*fw).show();
-        (*fw).setAttribute(Qt::WA_DeleteOnClose);
+        QFileDialog::getOpenFileName(this, "Open", "C:\\Users\\Yao_xr\\Desktop");
         });
     }
 
