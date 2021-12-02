@@ -8,7 +8,7 @@ class control : public QWidget
     Q_OBJECT
 
 public:
-    control(QWidget *parent = Q_NULLPTR);
+    control(QWidget* parent = Q_NULLPTR);
 
 private:
     Ui::controlClass ui;
