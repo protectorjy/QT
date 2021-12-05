@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QT_treeClass</class>
+ <widget class="QWidget" name="QT_treeClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QT_tree</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Ggalgame</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Galgame简介</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>纯爱</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>白色相簿2</string>
+     </property>
+     <property name="text">
+      <string>业界排行榜第一，永远的神作</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>想要传达给你的爱恋</string>
+     </property>
+     <property name="text">
+      <string>新岛夕经典作品，星学值得一玩</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>纸上的魔法使</string>
+     </property>
+     <property name="text">
+      <string>不错的一部作品，可以一试</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>剧情</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <item>
+     <property name="text">
+      <string>晴霁之后定是菜花盛开的好天气</string>
+     </property>
+     <property name="text">
+      <string>幼驯染神作，非常好的一部剧情作</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>秽翼的尤斯缇雅</string>
+     </property>
+     <property name="text">
+      <string>黑暗背景下的追寻救赎的故事，非常推荐</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>废萌</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>《柚子社全集》</string>
+     </property>
+     <property name="text">
+      <string>不多数，柚子社YYDS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>糖调</string>
+     </property>
+     <property name="text">
+      <string>经典废萌，萌的让你想睡觉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>少女领域</string>
+     </property>
+     <property name="text">
+      <string>萌拔作，一般般</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>clover‘days</string>
+     </property>
+     <property name="text">
+      <string>妹作，幼驯染线也不错哦</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QT_tree.qrc"/>
+ </resources>
+ <connections/>
+</ui>
