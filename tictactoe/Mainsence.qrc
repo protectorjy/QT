@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resources1/20211117161738.ico</file>
+        <file>resources1/20211117161738.png</file>
+        <file>resources1/20211117163329.png</file>
+        <file>resources1/20211118140221.png</file>
+        <file>resources1/20211118140239.ico</file>
+        <file>resources1/20211118140239.png</file>
+        <file>resources1/BackButton.png</file>
+        <file>resources1/BackButtonSelected.png</file>
+        <file>resources1/BackButtonSound.wav</file>
+        <file>resources1/BoardNode.png</file>
+        <file>resources1/Coin0001.png</file>
+        <file>resources1/Coin0002.png</file>
+        <file>resources1/Coin0003.png</file>
+        <file>resources1/Coin0004.png</file>
+        <file>resources1/Coin0005.png</file>
+        <file>resources1/Coin0006.png</file>
+        <file>resources1/Coin0007.png</file>
+        <file>resources1/Coin0008.png</file>
+        <file>resources1/ConFlipSound.wav</file>
+        <file>resources1/LevelCompletedDialogBg.png</file>
+        <file>resources1/LevelIcon.png</file>
+        <file>resources1/LevelWinSound.wav</file>
+        <file>resources1/MenuSceneBg.png</file>
+        <file>resources1/MenuSceneStartButton.png</file>
+        <file>resources1/OtherSceneBg.png</file>
+        <file>resources1/PlayLevelSceneBg.png</file>
+        <file>resources1/TapButtonSound.wav</file>
+        <file>resources1/Title.png</file>
+        <file>resources1/20211205233922.png</file>
+    </qresource>
+</RCC>

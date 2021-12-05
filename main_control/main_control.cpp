@@ -3,6 +3,7 @@
 #include<qfiledialog>
 #include<qdialog>
 #include<qstackedwidget>
+#include<qlabel>
 
 main_control::main_control(QWidget* parent)
     : QMainWindow(parent)
@@ -22,7 +23,7 @@ main_control::main_control(QWidget* parent)
     connect(ui.actionopen, &QAction::triggered, [=]() {
         QFileDialog::getOpenFileName(this, "OPEN", "C:\\Users\\Yao_xr\\Desktop");
         });
-    connect(ui.actionhelp,&QAction::triggered,[=]() {
+    connect(ui.actionhelp, &QAction::triggered, [=]() {
         QMessageBox::information(this, "Help", "Play a game!");
         });
     connect(ui.actionabout, &QAction::triggered, [=]() {
@@ -57,5 +58,6 @@ main_control::main_control(QWidget* parent)
     ui.toolButton_9->setStyleSheet("background-color: rgb(51,255,51)");
     ui.toolButton_10->setStyleSheet("background-color: rgb(51,255,51)");
     ui.toolButton_11->setStyleSheet("background-color: rgb(51,255,51)");
+    //ui.->setPixmap(QPixmap(": / resources / 20211118140239.png"));
 }
 
