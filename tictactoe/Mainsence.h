@@ -14,7 +14,7 @@ public:
     {
         QPainter painter(this);
         QPixmap pix;
-        pix.load(":/new/prefix1/resources1/20211207223351.png");
+        pix.load(":/new/prefix1/resources1/20211207223750.png");
         painter.drawPixmap(0, 0, this->width(), this->height(), pix);
     }
 private:
