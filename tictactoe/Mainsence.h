@@ -36,6 +36,8 @@ public:
     void Change3_1(QString);
     void Change3_2(QString);
     void Change3_3(QString);
+    void computer_control();
+    void algorithm();
     void succeed();
     void defeat();
     int number[3][3] = { 0 };
