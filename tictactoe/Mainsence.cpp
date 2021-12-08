@@ -8,6 +8,8 @@ Mainsence::Mainsence(QWidget *parent)
 {
     ui.setupUi(this);
     ui.stackedWidget->setCurrentIndex(0);
+    QString image = ":/new/prefix1/resources1/20211208165718.png";
+    QString image_people = ":/new/prefix1/resources1/20211208191508.png";
     this->setFixedSize(900, 700);
     this->setWindowIcon(QPixmap(":/new/prefix1/resources1/20211118140239.png"));
     connect(ui.actionquit, &QAction::triggered, [=]() {
@@ -32,17 +34,26 @@ Mainsence::Mainsence(QWidget *parent)
         });
     connect(ui.actionreturn, &QAction::triggered, [=]() {
         if (QMessageBox::Yes == QMessageBox::question(this, "Return", "Are you sure to return?"))
+        {
             ui.stackedWidget->setCurrentIndex(0);
+            origin(image);
+            for (int i = 0; i <= 2; i++)
+                for (int j = 0; j <= 2; j++)
+                    number[i][j] = 0;
+        }
         });
     connect(ui.toolButton_3, &QToolButton::clicked, [=]() {
         if (QMessageBox::Yes == QMessageBox::question(this, "Return", "Are you sure to return?"))
+        {
             ui.stackedWidget->setCurrentIndex(0);
+            origin(image);
+            for (int i = 0; i <= 2; i++)
+                for (int j = 0; j <= 2; j++)
+                    number[i][j] = 0;
+        }
         });
-    QString image = ":/new/prefix1/resources1/20211208133644.png";
-    QPixmap pix;
-    pix.load(image);
-    pix = pix.scaled(ui.toolButton_4->width(), ui.toolButton_4->height());
-    ui.toolButton_4->setIconSize(QSize(ui.toolButton_4->width(), ui.toolButton_4->height()));
-    ui.toolButton_4->setIcon(pix);
-    ui.toolButton_4->setAutoRaise(true);
+    origin(image);
+    connect(ui.toolButton_4, &QToolButton::clicked, [=]() {
+        change1_1(image_people);
+        });
 }

@@ -89,6 +89,7 @@
     <QtRcc Include="Mainsence.qrc" />
     <QtUic Include="Mainsence.ui" />
     <QtMoc Include="Mainsence.h" />
+    <ClCompile Include="change.cpp" />
     <ClCompile Include="Mainsence.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
