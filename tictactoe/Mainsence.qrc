@@ -29,5 +29,7 @@
         <file>resources1/TapButtonSound.wav</file>
         <file>resources1/Title.png</file>
         <file>resources1/20211205233922.png</file>
+        <file>resources1/20211207223351.png</file>
+        <file>resources1/20211207223750.png</file>
     </qresource>
 </RCC>
