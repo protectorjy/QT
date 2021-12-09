@@ -108,14 +108,28 @@ void Mainsence::algorithm()        //Ëã·¨
         Change1_3(image_computer);
     else
     {
-        Change1_1(image_computer);
-        Change1_2(image_computer);
-        Change1_3(image_computer);
-        Change2_1(image_computer);
-        Change2_2(image_computer);
-        Change2_3(image_computer);
         Change3_1(image_computer);
-        Change3_2(image_computer);
-        Change3_3(image_computer);
+        if (number[1][1] != 1)
+        {
+            Change1_1(image_computer);
+            Change1_3(image_computer);
+            Change1_2(image_computer);
+            Change2_1(image_computer);
+            Change2_2(image_computer);
+            Change2_3(image_computer);
+            Change3_2(image_computer);
+            Change3_3(image_computer);
+        }
+        else
+        {
+            Change1_3(image_computer);
+            Change1_1(image_computer);
+            Change1_2(image_computer);
+            Change2_1(image_computer);
+            Change2_2(image_computer);
+            Change2_3(image_computer);
+            Change3_2(image_computer);
+            Change3_3(image_computer);
+        }
     }
 }

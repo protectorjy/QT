@@ -352,23 +352,50 @@ void Mainsence::defeat()
     }
 }
 
+void Mainsence::dogfall()
+{
+    if (QMessageBox::Yes == QMessageBox::question(this, "DOGFALL", "Nobody win,do you want to play again?"))
+    {
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
+    }
+    else
+    {
+        ui.stackedWidget->setCurrentIndex(0);
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
+    }
+}
+
 void Mainsence::computer_control()
 {
-    if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[3][0] == 1 && number[3][1] == 1 && number[3][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
+    if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
     {
         succeed();
     }
-    else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[3][0] == 2 && number[3][1] == 2 && number[3][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2))
+    else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
     {
         defeat();
+    }
+    else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
+    {
+        dogfall();
     }
     algorithm();
-    if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[3][0] == 1 && number[3][1] == 1 && number[3][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
+    if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
     {
         succeed();
     }
-    else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[3][0] == 2 && number[3][1] == 2 && number[3][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2))
+    else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
     {
         defeat();
+    }
+    else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
+    {
+        dogfall();
     }
 }

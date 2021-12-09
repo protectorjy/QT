@@ -40,6 +40,7 @@ public:
     void algorithm();
     void succeed();
     void defeat();
+    void dogfall();
     int number[3][3] = { 0 };
     bool control = false;
 private:
