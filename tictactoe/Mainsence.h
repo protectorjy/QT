@@ -36,13 +36,26 @@ public:
     void Change3_1(QString);
     void Change3_2(QString);
     void Change3_3(QString);
+    void change_p_1_1(QString);
+    void change_p_1_2(QString);
+    void change_p_1_3(QString);
+    void change_p_2_1(QString);
+    void change_p_2_2(QString);
+    void change_p_2_3(QString);
+    void change_p_3_1(QString);
+    void change_p_3_2(QString);
+    void change_p_3_3(QString);
     void computer_control();
+    void people_pk();
     void algorithm();
     void succeed();
     void defeat();
+    void succeed_1();
+    void succeed_2();
     void dogfall();
     int number[3][3] = { 0 };
     bool control = false;
+    int cp = 1;
 private:
     Ui::MainsenceClass ui;
 };

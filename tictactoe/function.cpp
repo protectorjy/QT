@@ -2,6 +2,7 @@
 #include <qmessagebox>
 #include <qstackedwidget>
 #include <qicon>
+QString image_people_2 = ":/new/prefix1/resources1/20211208191706.png";
 void Mainsence::origin(QString image)
 {
     QPixmap pix;
@@ -42,6 +43,42 @@ void Mainsence::origin(QString image)
     ui.toolButton_17->setIconSize(QSize(ui.toolButton_17->width(), ui.toolButton_17->height()));
     ui.toolButton_17->setIcon(pix);
     ui.toolButton_17->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_9->width(), ui.toolButton_9->height());
+    ui.toolButton_9->setIconSize(QSize(ui.toolButton_9->width(), ui.toolButton_9->height()));
+    ui.toolButton_9->setIcon(pix);
+    ui.toolButton_9->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_10->width(), ui.toolButton_10->height());
+    ui.toolButton_10->setIconSize(QSize(ui.toolButton_10->width(), ui.toolButton_10->height()));
+    ui.toolButton_10->setIcon(pix);
+    ui.toolButton_10->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_18->width(), ui.toolButton_18->height());
+    ui.toolButton_18->setIconSize(QSize(ui.toolButton_18->width(), ui.toolButton_18->height()));
+    ui.toolButton_18->setIcon(pix);
+    ui.toolButton_18->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_24->width(), ui.toolButton_24->height());
+    ui.toolButton_24->setIconSize(QSize(ui.toolButton_24->width(), ui.toolButton_24->height()));
+    ui.toolButton_24->setIcon(pix);
+    ui.toolButton_24->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_19->width(), ui.toolButton_19->height());
+    ui.toolButton_19->setIconSize(QSize(ui.toolButton_19->width(), ui.toolButton_19->height()));
+    ui.toolButton_19->setIcon(pix);
+    ui.toolButton_19->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_20->width(), ui.toolButton_20->height());
+    ui.toolButton_20->setIconSize(QSize(ui.toolButton_20->width(), ui.toolButton_20->height()));
+    ui.toolButton_20->setIcon(pix);
+    ui.toolButton_20->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_21->width(), ui.toolButton_21->height());
+    ui.toolButton_21->setIconSize(QSize(ui.toolButton_21->width(), ui.toolButton_21->height()));
+    ui.toolButton_21->setIcon(pix);
+    ui.toolButton_21->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_22->width(), ui.toolButton_22->height());
+    ui.toolButton_22->setIconSize(QSize(ui.toolButton_22->width(), ui.toolButton_22->height()));
+    ui.toolButton_22->setIcon(pix);
+    ui.toolButton_22->setAutoRaise(true);
+    pix = pix.scaled(ui.toolButton_23->width(), ui.toolButton_23->height());
+    ui.toolButton_23->setIconSize(QSize(ui.toolButton_23->width(), ui.toolButton_23->height()));
+    ui.toolButton_23->setIcon(pix);
+    ui.toolButton_23->setAutoRaise(true);
 }
 
 void Mainsence::change1_1(QString image_people)
@@ -314,6 +351,123 @@ void Mainsence::Change3_3(QString image_computer)
     }
 }
 
+void Mainsence::change_p_1_1(QString image_people)
+{
+    if (number[0][0] != 1 && number[0][0] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_9->width(), ui.toolButton_9->height());
+        ui.toolButton_9->setIconSize(QSize(ui.toolButton_9->width(), ui.toolButton_9->height()));
+        ui.toolButton_9->setIcon(pix);
+        ui.toolButton_9->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_1_2(QString image_people)
+{
+    if (number[0][1] != 1 && number[0][1] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_10->width(), ui.toolButton_10->height());
+        ui.toolButton_10->setIconSize(QSize(ui.toolButton_10->width(), ui.toolButton_10->height()));
+        ui.toolButton_10->setIcon(pix);
+        ui.toolButton_10->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_1_3(QString image_people)
+{
+    if (number[0][2] != 1 && number[0][2] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_18->width(), ui.toolButton_18->height());
+        ui.toolButton_18->setIconSize(QSize(ui.toolButton_18->width(), ui.toolButton_18->height()));
+        ui.toolButton_18->setIcon(pix);
+        ui.toolButton_18->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_2_1(QString image_people)
+{
+    if (number[1][0] != 1 && number[1][0] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_19->width(), ui.toolButton_19->height());
+        ui.toolButton_19->setIconSize(QSize(ui.toolButton_19->width(), ui.toolButton_19->height()));
+        ui.toolButton_19->setIcon(pix);
+        ui.toolButton_19->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_2_2(QString image_people)
+{
+    if (number[1][1] != 1 && number[1][1] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_20->width(), ui.toolButton_20->height());
+        ui.toolButton_20->setIconSize(QSize(ui.toolButton_20->width(), ui.toolButton_20->height()));
+        ui.toolButton_20->setIcon(pix);
+        ui.toolButton_20->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_2_3(QString image_people)
+{
+    if (number[1][2] != 1 && number[1][2] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_23->width(), ui.toolButton_23->height());
+        ui.toolButton_23->setIconSize(QSize(ui.toolButton_23->width(), ui.toolButton_23->height()));
+        ui.toolButton_23->setIcon(pix);
+        ui.toolButton_23->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_3_1(QString image_people)
+{
+    if (number[2][0] != 1 && number[2][0] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_22->width(), ui.toolButton_22->height());
+        ui.toolButton_22->setIconSize(QSize(ui.toolButton_22->width(), ui.toolButton_22->height()));
+        ui.toolButton_22->setIcon(pix);
+        ui.toolButton_22->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_3_2(QString image_people)
+{
+    if (number[2][1] != 1 && number[2][1] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_21->width(), ui.toolButton_21->height());
+        ui.toolButton_21->setIconSize(QSize(ui.toolButton_21->width(), ui.toolButton_21->height()));
+        ui.toolButton_21->setIcon(pix);
+        ui.toolButton_21->setAutoRaise(true);
+    }
+}
+
+void Mainsence::change_p_3_3(QString image_people)
+{
+    if (number[2][2] != 1 && number[2][2] != 2)
+    {
+        QPixmap pix;
+        pix.load(image_people);
+        pix = pix.scaled(ui.toolButton_24->width(), ui.toolButton_24->height());
+        ui.toolButton_24->setIconSize(QSize(ui.toolButton_24->width(), ui.toolButton_24->height()));
+        ui.toolButton_24->setIcon(pix);
+        ui.toolButton_24->setAutoRaise(true);
+    }
+}
+
 void Mainsence::succeed()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN", "You are win,do you want to play again?"))
@@ -325,7 +479,7 @@ void Mainsence::succeed()
     }
     else
     {
-        ui.stackedWidget->setCurrentIndex(0);
+        ui.stackedWidget->setCurrentIndex(2);
         origin(":/new/prefix1/resources1/20211208165718.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
@@ -344,7 +498,7 @@ void Mainsence::defeat()
     }
     else
     {
-        ui.stackedWidget->setCurrentIndex(0);
+        ui.stackedWidget->setCurrentIndex(2);
         origin(":/new/prefix1/resources1/20211208165718.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
@@ -363,8 +517,9 @@ void Mainsence::dogfall()
     }
     else
     {
-        ui.stackedWidget->setCurrentIndex(0);
+        ui.stackedWidget->setCurrentIndex(2);
         origin(":/new/prefix1/resources1/20211208165718.png");
+        cp = 0;
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -397,5 +552,63 @@ void Mainsence::computer_control()
     else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
     {
         dogfall();
+    }
+}
+
+void Mainsence::people_pk()
+{
+    if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
+    {
+        succeed_1();
+    }
+    else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
+    {
+        succeed_2();
+    }
+    else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
+    {
+        dogfall();
+    }
+}
+
+
+
+void Mainsence::succeed_1()
+{
+    if (QMessageBox::Yes == QMessageBox::question(this, "WIN_1", "ON.1 are win,do you want to play again?"))
+    {
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
+    }
+    else
+    {
+        ui.stackedWidget->setCurrentIndex(2);
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        cp = 0;
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
+    }
+}
+
+void Mainsence::succeed_2()
+{
+    if (QMessageBox::Yes == QMessageBox::question(this, "WIN_2", "ON.2 are win,do you want to play again?"))
+    {
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
+    }
+    else
+    {
+        ui.stackedWidget->setCurrentIndex(2);
+        origin(":/new/prefix1/resources1/20211208165718.png");
+        cp = 0;
+        for (int i = 0; i <= 2; i++)
+            for (int j = 0; j <= 2; j++)
+                number[i][j] = 0;
     }
 }

@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>10</x>
+      <y>-10</y>
       <width>900</width>
       <height>700</height>
      </rect>
@@ -36,15 +36,15 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>10</x>
         <y>50</y>
-        <width>361</width>
+        <width>511</width>
         <height>61</height>
        </rect>
       </property>
@@ -102,6 +102,19 @@
       </property>
       <property name="autoRaise">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>20</y>
+        <width>281</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>
@@ -385,6 +398,257 @@
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>511</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_6">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>260</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211209170340.png</normaloff>:/new/prefix1/resources1/20211209170340.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>191</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>390</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211209170421.png</normaloff>:/new/prefix1/resources1/20211209170421.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>191</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_8">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>580</y>
+        <width>151</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211208135604.png</normaloff>:/new/prefix1/resources1/20211208135604.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>151</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>20</y>
+        <width>281</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QToolButton" name="toolButton_9">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>90</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_10">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>90</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_18">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>90</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_19">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>220</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_20">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>220</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_21">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>350</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_22">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>350</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_23">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>220</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_24">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>350</y>
+        <width>200</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_25">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>580</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211208135604.png</normaloff>:/new/prefix1/resources1/20211208135604.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>121</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -422,7 +686,7 @@
   </widget>
   <action name="actionreturn">
    <property name="text">
-    <string>返回</string>
+    <string>返回主菜单</string>
    </property>
   </action>
   <action name="actionquit">
