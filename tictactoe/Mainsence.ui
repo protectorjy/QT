@@ -11,14 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>姚欣睿的井字棋</string>
+   <string>送给张佳韵的井字棋</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>30</x>
+      <y>-10</y>
       <width>900</width>
       <height>700</height>
      </rect>
@@ -501,6 +501,84 @@
        <string>TextLabel</string>
       </property>
      </widget>
+     <widget class="QToolButton" name="toolButton_28">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>70</y>
+        <width>171</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>玩家一</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211210114005.png</normaloff>:/new/prefix1/resources1/20211210114005.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_29">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>250</y>
+        <width>171</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>玩家二</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211210113923.png</normaloff>:/new/prefix1/resources1/20211210113923.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_3">
      <widget class="QLabel" name="label_3">
@@ -731,7 +809,7 @@
        <rect>
         <x>720</x>
         <y>580</y>
-        <width>121</width>
+        <width>151</width>
         <height>71</height>
        </rect>
       </property>
@@ -744,7 +822,7 @@
       </property>
       <property name="iconSize">
        <size>
-        <width>121</width>
+        <width>151</width>
         <height>71</height>
        </size>
       </property>
@@ -856,6 +934,84 @@
        <string>TextLabel</string>
       </property>
      </widget>
+     <widget class="QToolButton" name="toolButton_26">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>70</y>
+        <width>171</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>玩家</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211210114005.png</normaloff>:/new/prefix1/resources1/20211210114005.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_27">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>250</y>
+        <width>171</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>电脑</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Mainsence.qrc">
+        <normaloff>:/new/prefix1/resources1/20211210113923.png</normaloff>:/new/prefix1/resources1/20211210113923.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -865,7 +1021,7 @@
      <x>0</x>
      <y>0</y>
      <width>900</width>
-     <height>26</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">

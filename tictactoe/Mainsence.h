@@ -19,15 +19,15 @@ public:
         painter.drawPixmap(0, 0, this->width(), this->height(), pix);
     }
     void origin(QString);
-    void change1_1(QString);
-    void change1_2(QString);
-    void change1_3(QString);
-    void change2_1(QString);
-    void change2_2(QString);
-    void change2_3(QString);
-    void change3_1(QString);
-    void change3_2(QString);
-    void change3_3(QString);
+    void change1_1(QString, QSound*);
+    void change1_2(QString, QSound*);
+    void change1_3(QString, QSound*);
+    void change2_1(QString, QSound*);
+    void change2_2(QString, QSound*);
+    void change2_3(QString, QSound*);
+    void change3_1(QString, QSound*);
+    void change3_2(QString, QSound*);
+    void change3_3(QString, QSound*);
     void Change1_1(QString);
     void Change1_2(QString);
     void Change1_3(QString);
@@ -37,15 +37,15 @@ public:
     void Change3_1(QString);
     void Change3_2(QString);
     void Change3_3(QString);
-    void change_p_1_1(QString);
-    void change_p_1_2(QString);
-    void change_p_1_3(QString);
-    void change_p_2_1(QString);
-    void change_p_2_2(QString);
-    void change_p_2_3(QString);
-    void change_p_3_1(QString);
-    void change_p_3_2(QString);
-    void change_p_3_3(QString);
+    void change_p_1_1(QString, QSound*);
+    void change_p_1_2(QString, QSound*);
+    void change_p_1_3(QString, QSound*);
+    void change_p_2_1(QString, QSound*);
+    void change_p_2_2(QString, QSound*);
+    void change_p_2_3(QString, QSound*);
+    void change_p_3_1(QString, QSound*);
+    void change_p_3_2(QString, QSound*);
+    void change_p_3_3(QString, QSound*);
     void computer_control(QSound*, QSound*);
     void people_pk(QSound*, QSound*);
     void algorithm();
@@ -54,9 +54,12 @@ public:
     void succeed_1(QSound*, QSound*);
     void succeed_2(QSound*, QSound*);
     void dogfall(QSound*, QSound*);
+    
+private:
+    Ui::MainsenceClass ui;
     int number[3][3] = { 0 };
     bool control = false;
     int cp = 1;
-private:
-    Ui::MainsenceClass ui;
+    int left = 0;
+    int right = 0;
 };

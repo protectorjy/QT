@@ -1,36 +1,28 @@
 <RCC>
     <qresource prefix="/new/prefix1">
-        <file>resources1/20211118140239.ico</file>
-        <file>resources1/20211118140239.png</file>
-        <file>resources1/BackButton.png</file>
-        <file>resources1/BackButtonSelected.png</file>
-        <file>resources1/BackButtonSound.wav</file>
-        <file>resources1/ConFlipSound.wav</file>
-        <file>resources1/TapButtonSound.wav</file>
-        <file>resources1/Title.png</file>
         <file>resources1/20211205233922.png</file>
         <file>resources1/20211208133644.png</file>
         <file>resources1/20211208133841.png</file>
         <file>resources1/20211208135522.png</file>
         <file>resources1/20211208135604.png</file>
         <file>resources1/20211208165718.png</file>
-        <file>resources1/20211208184355.png</file>
         <file>resources1/20211209164921.png</file>
         <file>resources1/20211209170340.png</file>
         <file>resources1/20211209170421.png</file>
-        <file>resources1/20211210111310.png</file>
-        <file>resources1/20211210112826.png</file>
         <file>resources1/20211210113923.png</file>
         <file>resources1/20211210114005.png</file>
         <file>resources1/20211210113755.png</file>
         <file>resources1/20211210114950.png</file>
-        <file>resources1/20211210135853.png</file>
         <file>resources1/main.wav</file>
         <file>resources1/pk.png</file>
         <file>resources1/game.wav</file>
         <file>resources1/453b76819f7d80bc76eba4198c3d1067.gif</file>
-        <file>resources1/20211208133555.png</file>
-        <file>resources1/20211210140122.png</file>
-        <file>resources1/courgette.log</file>
+        <file>resources1/open.wav</file>
+        <file>resources1/defeat.wav</file>
+        <file>resources1/dogfall.wav</file>
+        <file>resources1/win.wav</file>
+        <file>resources1/20211118140239.png</file>
+        <file>resources1/20211210200545.png</file>
+        <file>resources1/20211210201212.png</file>
     </qresource>
 </RCC>
