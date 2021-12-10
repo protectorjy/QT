@@ -1,48 +1,20 @@
 <RCC>
     <qresource prefix="/new/prefix1">
-        <file>resources1/20211117161738.ico</file>
-        <file>resources1/20211117161738.png</file>
-        <file>resources1/20211117163329.png</file>
-        <file>resources1/20211118140221.png</file>
         <file>resources1/20211118140239.ico</file>
         <file>resources1/20211118140239.png</file>
         <file>resources1/BackButton.png</file>
         <file>resources1/BackButtonSelected.png</file>
         <file>resources1/BackButtonSound.wav</file>
-        <file>resources1/BoardNode.png</file>
-        <file>resources1/Coin0001.png</file>
-        <file>resources1/Coin0002.png</file>
-        <file>resources1/Coin0003.png</file>
-        <file>resources1/Coin0004.png</file>
-        <file>resources1/Coin0005.png</file>
-        <file>resources1/Coin0006.png</file>
-        <file>resources1/Coin0007.png</file>
-        <file>resources1/Coin0008.png</file>
         <file>resources1/ConFlipSound.wav</file>
-        <file>resources1/LevelCompletedDialogBg.png</file>
-        <file>resources1/LevelIcon.png</file>
-        <file>resources1/LevelWinSound.wav</file>
-        <file>resources1/MenuSceneBg.png</file>
-        <file>resources1/MenuSceneStartButton.png</file>
-        <file>resources1/OtherSceneBg.png</file>
-        <file>resources1/PlayLevelSceneBg.png</file>
         <file>resources1/TapButtonSound.wav</file>
         <file>resources1/Title.png</file>
         <file>resources1/20211205233922.png</file>
-        <file>resources1/20211207223351.png</file>
-        <file>resources1/20211207223750.png</file>
         <file>resources1/20211208133644.png</file>
         <file>resources1/20211208133841.png</file>
         <file>resources1/20211208135522.png</file>
         <file>resources1/20211208135604.png</file>
         <file>resources1/20211208165718.png</file>
         <file>resources1/20211208184355.png</file>
-        <file>resources1/20211208191508.png</file>
-        <file>resources1/20211208191706.png</file>
-        <file>resources1/254c0ba9b012e41c67e4b1396db29a08.gif</file>
-        <file>resources1/453b76819f7d80bc76eba4198c3d1067.gif</file>
-        <file>resources1/632fad1b71974ebb51560467f58b4db8.gif</file>
-        <file>resources1/d379db500d6aed2e40a6fe5eaff0a78b.gif</file>
         <file>resources1/20211209164921.png</file>
         <file>resources1/20211209170340.png</file>
         <file>resources1/20211209170421.png</file>
@@ -52,13 +24,13 @@
         <file>resources1/20211210114005.png</file>
         <file>resources1/20211210113755.png</file>
         <file>resources1/20211210114950.png</file>
-        <file>resources1/32ea0be16a7a03916b3032d6d5c2a86d.gif</file>
-        <file>resources1/8ec2e73a6dc82fa05bdb9bbeee213379.jpeg</file>
-        <file>resources1/cbfa40363d4100a534f811e25d73a727.png</file>
-        <file>resources1/cbfa40363d4100a534f811e25d73a727~1.png</file>
-        <file>resources1/cbfa40363d4100a534f811e25d73a727~2.png</file>
         <file>resources1/20211210135853.png</file>
-        <file>resources1/20211210140122.png</file>
+        <file>resources1/main.wav</file>
         <file>resources1/pk.png</file>
+        <file>resources1/game.wav</file>
+        <file>resources1/453b76819f7d80bc76eba4198c3d1067.gif</file>
+        <file>resources1/20211208133555.png</file>
+        <file>resources1/20211210140122.png</file>
+        <file>resources1/courgette.log</file>
     </qresource>
 </RCC>

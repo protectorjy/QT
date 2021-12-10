@@ -2,6 +2,7 @@
 #include <qmessagebox>
 #include <qstackedwidget>
 #include <qicon>
+#include <QtMultimedia/qsound>
 QString image_people_2 = ":/new/prefix1/resources1/20211210113923.png";
 void Mainsence::origin(QString image)
 {
@@ -468,14 +469,16 @@ void Mainsence::change_p_3_3(QString image_people)
     }
 }
 
-void Mainsence::succeed()
+void Mainsence::succeed(QSound* sound_play, QSound* sound_main)
 {
+    (*sound_play).stop();
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN", "You are win,do you want to play again?"))
     {
         origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_play).play();
     }
     else
     {
@@ -484,17 +487,20 @@ void Mainsence::succeed()
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_main).play();
     }
 }
 
-void Mainsence::defeat()
+void Mainsence::defeat(QSound* sound_play, QSound* sound_main)
 {
+    (*sound_play).stop();
     if (QMessageBox::Yes == QMessageBox::question(this, "DEFEAT", "You are define,do you want to play again?"))
     {
         origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_play).play();
     }
     else
     {
@@ -503,17 +509,20 @@ void Mainsence::defeat()
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_main).play();
     }
 }
 
-void Mainsence::dogfall()
+void Mainsence::dogfall(QSound* sound_play,QSound* sound_main)
 {
+    (*sound_play).stop();
     if (QMessageBox::Yes == QMessageBox::question(this, "DOGFALL", "Nobody win,do you want to play again?"))
     {
         origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_play).play();
     }
     else
     {
@@ -523,64 +532,67 @@ void Mainsence::dogfall()
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_main).play();
     }
 }
 
-void Mainsence::computer_control()
+void Mainsence::computer_control(QSound *sound_play, QSound* sound_main)
 {
     if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
     {
-        succeed();
+        succeed(sound_play, sound_main);
     }
     else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
     {
-        defeat();
+        defeat(sound_play, sound_main);
     }
     else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
     {
-        dogfall();
+        dogfall(sound_play, sound_main);
     }
     algorithm();
     if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
     {
-        succeed();
+        succeed(sound_play, sound_main);
     }
     else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
     {
-        defeat();
+        defeat(sound_play, sound_main);
     }
     else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
     {
-        dogfall();
+        dogfall(sound_play, sound_main);
     }
 }
 
-void Mainsence::people_pk()
+void Mainsence::people_pk(QSound* sound_play, QSound* sound_main)
 {
     if ((number[0][0] == 1 && number[0][1] == 1 && number[0][2] == 1) || (number[1][0] == 1 && number[1][1] == 1 && number[1][2] == 1) || (number[2][0] == 1 && number[2][1] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][0] == 1 && number[2][0] == 1) || (number[0][1] == 1 && number[1][1] == 1 && number[2][1] == 1) || (number[0][2] == 1 && number[1][2] == 1 && number[2][2] == 1) || (number[0][0] == 1 && number[1][1] == 1 && number[2][2] == 1) || (number[0][2] == 1 && number[1][1] == 1 && number[2][0] == 1))
     {
-        succeed_1();
+        succeed_1(sound_play, sound_main);
     }
     else if ((number[0][0] == 2 && number[0][1] == 2 && number[0][2] == 2) || (number[1][0] == 2 && number[1][1] == 2 && number[1][2] == 2) || (number[2][0] == 2 && number[2][1] == 2 && number[2][2] == 2) || (number[0][0] == 2 && number[1][0] == 2 && number[2][0] == 2) || (number[0][1] == 2 && number[1][1] == 2 && number[2][1] == 2) || (number[0][2] == 2 && number[1][2] == 2 && number[2][2] == 2) || (number[0][2] == 2 && number[1][1] == 2 && number[2][0] == 2) || (number[0][0] == 2 && number[1][1] == 2 && number[2][2] == 2))
     {
-        succeed_2();
+        succeed_2(sound_play, sound_main);
     }
-    else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
+    /*else if (number[0][0] != 0 && number[0][1] != 0 && number[0][2] != 0 && number[1][0] != 0 && number[1][1] != 0 && number[1][2] != 0 && number[2][0] != 0 && number[2][1] != 0 && number[2][2] != 0)
     {
         dogfall();
-    }
+    }*/
 }
 
 
 
-void Mainsence::succeed_1()
+void Mainsence::succeed_1(QSound* sound_play, QSound* sound_main)
 {
+    (*sound_play).stop();
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN_1", "ON.1 are win,do you want to play again?"))
     {
         origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_play).play();
     }
     else
     {
@@ -590,17 +602,20 @@ void Mainsence::succeed_1()
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_main).play();
     }
 }
 
-void Mainsence::succeed_2()
+void Mainsence::succeed_2(QSound* sound_play, QSound* sound_main)
 {
+    (*sound_play).stop();
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN_2", "ON.2 are win,do you want to play again?"))
     {
         origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_play).play();
     }
     else
     {
@@ -610,5 +625,6 @@ void Mainsence::succeed_2()
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
+        (*sound_main).play();
     }
 }

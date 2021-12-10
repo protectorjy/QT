@@ -3,6 +3,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_Mainsence.h"
 #include<qpainter>
+#include <QtMultimedia/qsound>
 
 class Mainsence : public QMainWindow
 {
@@ -45,14 +46,14 @@ public:
     void change_p_3_1(QString);
     void change_p_3_2(QString);
     void change_p_3_3(QString);
-    void computer_control();
-    void people_pk();
+    void computer_control(QSound*, QSound*);
+    void people_pk(QSound*, QSound*);
     void algorithm();
-    void succeed();
-    void defeat();
-    void succeed_1();
-    void succeed_2();
-    void dogfall();
+    void succeed(QSound*, QSound*);
+    void defeat(QSound*, QSound*);
+    void succeed_1(QSound*, QSound*);
+    void succeed_2(QSound*, QSound*);
+    void dogfall(QSound*, QSound*);
     int number[3][3] = { 0 };
     bool control = false;
     int cp = 1;
