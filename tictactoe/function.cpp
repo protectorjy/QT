@@ -2,7 +2,7 @@
 #include <qmessagebox>
 #include <qstackedwidget>
 #include <qicon>
-QString image_people_2 = ":/new/prefix1/resources1/20211208191706.png";
+QString image_people_2 = ":/new/prefix1/resources1/20211210113923.png";
 void Mainsence::origin(QString image)
 {
     QPixmap pix;
@@ -472,7 +472,7 @@ void Mainsence::succeed()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN", "You are win,do you want to play again?"))
     {
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -480,7 +480,7 @@ void Mainsence::succeed()
     else
     {
         ui.stackedWidget->setCurrentIndex(2);
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -491,7 +491,7 @@ void Mainsence::defeat()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "DEFEAT", "You are define,do you want to play again?"))
     {
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -499,7 +499,7 @@ void Mainsence::defeat()
     else
     {
         ui.stackedWidget->setCurrentIndex(2);
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -510,7 +510,7 @@ void Mainsence::dogfall()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "DOGFALL", "Nobody win,do you want to play again?"))
     {
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -518,7 +518,7 @@ void Mainsence::dogfall()
     else
     {
         ui.stackedWidget->setCurrentIndex(2);
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         cp = 0;
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
@@ -577,7 +577,7 @@ void Mainsence::succeed_1()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN_1", "ON.1 are win,do you want to play again?"))
     {
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -585,7 +585,7 @@ void Mainsence::succeed_1()
     else
     {
         ui.stackedWidget->setCurrentIndex(2);
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         cp = 0;
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
@@ -597,7 +597,7 @@ void Mainsence::succeed_2()
 {
     if (QMessageBox::Yes == QMessageBox::question(this, "WIN_2", "ON.2 are win,do you want to play again?"))
     {
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)
                 number[i][j] = 0;
@@ -605,7 +605,7 @@ void Mainsence::succeed_2()
     else
     {
         ui.stackedWidget->setCurrentIndex(2);
-        origin(":/new/prefix1/resources1/20211208165718.png");
+        origin(":/new/prefix1/resources1/20211210113755.png");
         cp = 0;
         for (int i = 0; i <= 2; i++)
             for (int j = 0; j <= 2; j++)

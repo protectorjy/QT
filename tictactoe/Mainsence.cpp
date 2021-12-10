@@ -9,12 +9,13 @@ Mainsence::Mainsence(QWidget *parent)
 {
     ui.setupUi(this);
     ui.stackedWidget->setCurrentIndex(0);
-    QString image = ":/new/prefix1/resources1/20211208165718.png";
-    QString image_people = ":/new/prefix1/resources1/20211208191508.png";
-    QString image_computer = ":/new/prefix1/resources1/20211208191706.png";
+    QString image = ":/new/prefix1/resources1/20211210113755.png";
+    QString image_people = ":/new/prefix1/resources1/20211210114005.png";
+    QString image_computer = ":/new/prefix1/resources1/20211210113923.png";
     QString movie_1 = ":/new/prefix1/resources1/d379db500d6aed2e40a6fe5eaff0a78b.gif";
     QString movie_2 = ":/new/prefix1/resources1/632fad1b71974ebb51560467f58b4db8.gif";
     QString movie_3 = ":/new/prefix1/resources1/453b76819f7d80bc76eba4198c3d1067.gif";
+    QString movie_4 = ":/new/prefix1/resources1/8ec2e73a6dc82fa05bdb9bbeee213379.jpeg";
     QMovie* mov_1 = new QMovie(movie_3);
     (*mov_1).setScaledSize(QSize(ui.label_2->width(), ui.label_2->height()));
     ui.label_2->setMovie(mov_1);
@@ -23,7 +24,29 @@ Mainsence::Mainsence(QWidget *parent)
     (*mov_2).setScaledSize(QSize(ui.label_4->width(), ui.label_4->height()));
     ui.label_4->setMovie(mov_2);
     (*mov_2).start();
+    QMovie* mov_3 = new QMovie(movie_4);
+    (*mov_3).setScaledSize(QSize(ui.label_10->width(), ui.label_10->height()));
+    ui.label_10->setMovie(mov_3);
+    (*mov_3).start();
     ui.label_3->setPixmap(QPixmap(":/new/prefix1/resources1/20211205233922.png"));
+    ui.label_5->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_6->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_7->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_8->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_9->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_10->setPixmap(QPixmap(":/new/prefix1/resources1/pk.png"));
+    ui.label_11->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_12->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_13->setPixmap(QPixmap(":/new/prefix1/resources1/pk.png"));
+    ui.label_14->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_16->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_17->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_18->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_19->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_21->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    ui.label_22->setPixmap(QPixmap(":/new/prefix1/resources1/20211210114950.png"));
+    
+
 
     this->setFixedSize(900, 700);
     this->setWindowIcon(QPixmap(":/new/prefix1/resources1/20211118140239.png"));
@@ -46,8 +69,8 @@ Mainsence::Mainsence(QWidget *parent)
         ui.stackedWidget->setCurrentIndex(1);
         });
     connect(ui.toolButton_7, &QToolButton::clicked, [=]() {
-        ui.stackedWidget->setCurrentIndex(3);
         cp = 1;
+        ui.stackedWidget->setCurrentIndex(3);
         });
     connect(ui.toolButton_2, &QToolButton::clicked, [=]() {
         if (QMessageBox::Yes == QMessageBox::question(this, "Quit", "Are you sure to quit?"))

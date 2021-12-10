@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>-10</y>
+      <x>0</x>
+      <y>0</y>
       <width>900</width>
       <height>700</height>
      </rect>
@@ -36,7 +36,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label">
@@ -148,21 +148,21 @@
      <widget class="QToolButton" name="toolButton_4">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>70</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -176,21 +176,21 @@
      <widget class="QToolButton" name="toolButton_5">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>200</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -204,21 +204,21 @@
      <widget class="QToolButton" name="toolButton_11">
       <property name="geometry">
        <rect>
-        <x>580</x>
+        <x>330</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -232,21 +232,21 @@
      <widget class="QToolButton" name="toolButton_12">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>220</y>
-        <width>200</width>
+        <x>330</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -260,21 +260,21 @@
      <widget class="QToolButton" name="toolButton_13">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>220</y>
-        <width>200</width>
+        <x>70</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -288,21 +288,21 @@
      <widget class="QToolButton" name="toolButton_14">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>220</y>
-        <width>200</width>
+        <x>200</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -316,21 +316,21 @@
      <widget class="QToolButton" name="toolButton_15">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>350</y>
-        <width>200</width>
+        <x>330</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -344,21 +344,21 @@
      <widget class="QToolButton" name="toolButton_16">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>350</y>
-        <width>200</width>
+        <x>70</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -372,21 +372,21 @@
      <widget class="QToolButton" name="toolButton_17">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>350</y>
-        <width>200</width>
+        <x>200</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </size>
       </property>
@@ -395,6 +395,110 @@
       </property>
       <property name="autoRaise">
        <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>401</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>430</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>310</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>51</x>
+        <y>90</y>
+        <width>20</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>90</y>
+        <width>31</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>190</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>90</y>
+        <width>20</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>90</y>
+        <width>31</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>
@@ -508,9 +612,9 @@
      <widget class="QToolButton" name="toolButton_9">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>70</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -521,9 +625,9 @@
      <widget class="QToolButton" name="toolButton_10">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>200</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -534,9 +638,9 @@
      <widget class="QToolButton" name="toolButton_18">
       <property name="geometry">
        <rect>
-        <x>580</x>
+        <x>330</x>
         <y>90</y>
-        <width>200</width>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -547,9 +651,9 @@
      <widget class="QToolButton" name="toolButton_19">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>220</y>
-        <width>200</width>
+        <x>70</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -560,9 +664,9 @@
      <widget class="QToolButton" name="toolButton_20">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>220</y>
-        <width>200</width>
+        <x>200</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -573,9 +677,9 @@
      <widget class="QToolButton" name="toolButton_21">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>350</y>
-        <width>200</width>
+        <x>200</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -586,9 +690,9 @@
      <widget class="QToolButton" name="toolButton_22">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>350</y>
-        <width>200</width>
+        <x>70</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -599,9 +703,9 @@
      <widget class="QToolButton" name="toolButton_23">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>220</y>
-        <width>200</width>
+        <x>330</x>
+        <y>210</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -612,9 +716,9 @@
      <widget class="QToolButton" name="toolButton_24">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>350</y>
-        <width>200</width>
+        <x>330</x>
+        <y>330</y>
+        <width>100</width>
         <height>100</height>
        </rect>
       </property>
@@ -646,6 +750,110 @@
       </property>
       <property name="autoRaise">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>90</y>
+        <width>31</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>90</y>
+        <width>31</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>190</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>310</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>430</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>401</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>51</x>
+        <y>90</y>
+        <width>20</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>90</y>
+        <width>20</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>

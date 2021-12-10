@@ -2,9 +2,9 @@
 #include <qmessagebox>
 #include <qstackedwidget>
 #include <qicon>
-QString image = ":/new/prefix1/resources1/20211208165718.png";
-QString image_people = ":/new/prefix1/resources1/20211208191508.png";
-QString image_computer = ":/new/prefix1/resources1/20211208191706.png";
+QString image = ":/new/prefix1/resources1/20211210113755.png";
+QString image_people = ":/new/prefix1/resources1/20211210114005.png";
+QString image_computer = ":/new/prefix1/resources1/20211210113923.png";
 
 void Mainsence::algorithm()        //Ëã·¨
 {
